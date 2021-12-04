@@ -61,6 +61,7 @@
         "friendsofphp/php-cs-fixer": "^3.3",
         "phpstan/phpstan": "^1.2",
         "phpunit/phpunit": "^9.5",
+        "symfony/maker-bundle": "^1.36",
         "symfony/phpunit-bridge": "^6.0"
     }
 }
