@@ -153,7 +153,8 @@ final class SimulationDoSimulation
     {
         if (
             strtotime($sequence->startHour()->value()->format('H:i')) <= strtotime($timeSlot->format('H:i')) &&
-            strtotime($sequence->endHour()->value()->format('H:i')) >= strtotime($timeSlot->format('H:i'))
+            strtotime($sequence->endHour()->value()->format('H:i')) >= strtotime($timeSlot->format('H:i')) &&
+            $timeSlot->format('i') % $sequence->interval()->value()->i === 0
         ) {
             return true;
         }
