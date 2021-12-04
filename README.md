@@ -41,4 +41,7 @@ make tests
 Ejecutar el phpstan
 make phpstan
 
+## Para EJECUTAR EL COMANDO CON EL RESULTADO
+bin/console app:test
+
 Debido a las necesidades de tiempo ha sido imposible realizar en una primera instancia los tests. 
